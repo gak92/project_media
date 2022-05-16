@@ -1,0 +1,23 @@
+*
+{
+    background-color: gray;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .navleft {
+    display: flex;
+}
+
+#navbar .navmid {
+    display: flex;
+}
+
+#navbar .navright {
+    display: flex;
+}
