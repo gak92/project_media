@@ -1,6 +1,13 @@
 *
 {
-    background-color: gray;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    
 }
 
 #navbar
@@ -8,6 +15,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: darkgray;
+    height: 60px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 #navbar .navleft {
@@ -21,3 +32,32 @@
 #navbar .navright {
     display: flex;
 }
+
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 600px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#main-container .left {
+    flex-grow: 2;
+    background-color: aqua;
+}
+
+#main-container #video-container {
+    padding: 20px 5px;
+}
+
+#main-container .right {
+    flex-grow: 1;
+    background-color: brown;
+    
+}
+
+#main-container #thumbnail-container {
+    padding: 20px 5px;
+}
+
